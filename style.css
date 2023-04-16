@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contact-header {
+    background: linear-gradient(to right, hsl(0, 50%, 61%), hsl(0, 50%, 35%));
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 40px;
+    font-size: 0.9rem;
+}
+
+.fa {
+    color: #f4f4f4;
+}
+
+.contact-header span {
+    margin-left: 30px;
+}
+
+.contact-header a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+
+header {
+    height: 250px;
+    background: url("./img/toronto-bg.png") center/cover;
+}
+
+.navbar-nav li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
