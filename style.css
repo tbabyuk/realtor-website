@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 body {
     font-family:Arial, Helvetica, sans-serif;
@@ -34,13 +38,31 @@ body {
     color: #f4f4f4;
 }
 
-
 header {
-    height: 250px;
+    height: 280px;
     background: url("./img/toronto-bg.png") center/cover;
+    position: relative;
 }
 
 .navbar-nav li {
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.navbar-nav {
+    font-weight: 500;
+}
+
+.bg-oresta {
+    background: #dbe8e8;
+}
+
+/* section 1 */
+
+.section {
+    border-bottom: 2px solid lightgray;
+}
+
+.intro-section img {
+    width: 250px;
 }
