@@ -10,9 +10,10 @@
 </head>
 <body>
     <div class="contact-header">
-            <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
             <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+            <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
             <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+            <span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
             <span><a href="tel:+4733378901">+(416) 319-5748</a></span>
             <span><button type="button" class="btn btn-outline-light p-1" data-bs-toggle="modal" data-bs-target="#exampleModal">Email Me</button></span>
     </div>
@@ -33,7 +34,7 @@
                 <a class="nav-link" aria-current="page" href="#">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CURRENT LISTINGS</a>
+                <a class="nav-link" href="#listings">CURRENT LISTINGS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
@@ -42,16 +43,16 @@
                 <a class="nav-link" href="#">ABOUT ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact-section">CONTACT ME</a>
+                <a class="nav-link" href="#contact">CONTACT ME</a>
               </li>
             </ul>
           </div>
       </div>
     </nav>
 
-  <!-- Section 1 -->
-  <div class="container">
-    <div class="row section py-5 intro-section">
+  <!-- INTRO SECTION -->
+  <div class="container section mb-5 pb-5" id="intro">
+    <div class="row py-5">
       <div class="col text-center">
         <img src="./img/oresta3.jpg">
       </div>
@@ -62,21 +63,34 @@
         </p>
       </div>
     </div>
-    <div class="row section py-5 listings-section">
-      <div class="col text-center">
-        <p class="lead fst-italic mt-5">"With over a decade of experience in sales and customer service, we are
-          confident that we can find the perfect home for you and your family and sell your current one for a
-          great price!"
-        </p>      
+  </div>
+
+  <!-- LISTINGS SECTION -->
+  <div class="container section mb-5 pb-5" id="listings">
+    <div class="row">
+      <div class="col-12 mb-5 text-center">
+        <h2>Current Listings:</h2>
       </div>
-      <div class="col">
-        <p class="lead fst-italic mt-5">"With over a decade of experience in sales and customer service, we are
-          confident that we can find the perfect home for you and your family and sell your current one for a
-          great price!"
-        </p>
+      <div class="listing col-12 col-md-6 col-lg-4 col-xl-3 mb-4 text-center">
+        <img src="/img/property_1.jpeg">
+        <span class="property-description">Description</span>
+      </div>
+      <div class="listing col-12 col-md-6 col-lg-4 col-xl-3 mb-4 text-center">
+        <img src="/img/property_2.jpeg">
+      </div>
+      <div class="listing col-12 col-md-6 col-lg-4 col-xl-3 mb-4 text-center">
+        <img src="/img/property_3.jpeg">
+      </div>
+      <div class="listing col-12 col-md-6 col-lg-4 col-xl-3 mb-4 text-center">
+        <img src="/img/property_4.jpeg">
       </div>
     </div>
-    <div class="row section py-5 reviews-section" id="testimonials">
+  </div>
+
+
+  <!-- TESTIMONIALS SECTION -->
+  <div class="container section mb-5 pb-5" id="testimonials">
+    <div class="row py-5">
       <div class="col-6">
         <p>“Oresta helped us sell our property quickly in a really tricky (Covid) market. She was extremely
           knowledgeable and professional and was able to provide us with the guidance we needed to prepare and
@@ -116,13 +130,13 @@
     </div>
   </div>
 
-  <!-- Contact Form  -->
-  <div class="container" id="contact-section">
-    <div class="row section section py-5 contact-section">
+  <!-- CONTACT SECTION  -->
+  <div class="container section" id="contact">
+    <div class="row py-5">
       <div class="col-12 mb-5 text-center">
         <h2>Contact Me:</h2>
       </div>
-      <div class="col-12 col-lg-6 px-5">
+      <div class="col-12 col-lg-6 px-4 px-md-5">
         <form>
           <div class="mb-3">
             <label for="name" class="form-label">Your Name:</label>
@@ -143,7 +157,7 @@
           <button type="submit" class="btn btn-primary mt-3 w-100">Submit</button>
         </form>
       </div>
-      <div class="col-12 col-lg-6 px-5 mt-5 mt-lg-0">
+      <div class="col-12 col-lg-6 px-4 px-md-5 mt-5 mt-lg-0">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11544.199353009271!2d-79.4870902!3d43.6679333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3420377dd3e9%3A0xa4c7bec0e16eadcb!2sKeller%20Williams%20Neighbourhood%20Realty%2C%20Brokerage%3A%20John%20Cameron!5e0!3m2!1sen!2sca!4v1681790847337!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
@@ -151,7 +165,7 @@
 
 
 
-  <!-- footer -->
+  <!-- FOOTER SECTION -->
   <div class="container-fluid mt-5" id="footer-section">
     <div class="row text-white section pt-5 footer-section">
       <div class="col-12 col-md-4 mb-5 text-center">
