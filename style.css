@@ -57,45 +57,63 @@ header {
     background: #dbe8e8;
 }
 
-/* section 1 */
 
-.section {
-    border-bottom: 2px solid lightgray;
-}
+/* section 1 */
 
 #intro img {
     width: 250px;
 }
 
-/* listings section */
 
-#listings .listing {
-    overflow: hidden;
+/* LISTINGS SECTION */
+ 
+.listing {
+    background: url("./img/property_1.jpeg") center/cover;
+}
+
+.image-wrapper {
+    background: yellow;
     position: relative;
 }
 
 #listings img {
     cursor: pointer;
     transition: 1s;
+    width: 100%;
 }
 
 #listings img:hover {
-    transform: scale(1.2)
+    transform: scale(1.2);
 }
 
 .property-description {
     position: absolute;
-    left: 12;
+    left: 0;
     bottom: 0;
-    height: 50px;
-    width: 93%;
+    width: 100%;
+    height: 55px;
     background: rgba(0, 0, 0, 0.5);
     color: #f4f4f4;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.property-description .rooms {
+    font-weight: bold;
+}
+
+.property-description .address {
+    font-size: small;
+}
+
+.property-description .price {
+    font-weight: bold;
 }
 
 
-
-/* footer section */
+/* FOOTER SECTION */
 
 .footer-section {
     background: hsl(0, 6%, 14%);
