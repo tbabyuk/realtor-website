@@ -19,23 +19,16 @@ body {
     background: linear-gradient(to right, hsl(0, 50%, 61%), hsl(0, 50%, 35%));
     height: 40px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    /* padding: 0 40px; */
     font-size: 0.9rem;
 }
 
-.fa {
-    color: #f4f4f4;
-}
-
-.contact-header span {
-    margin-left: 30px;
-}
-
-.contact-header a {
+.contact-header a, .fab, .fa {
     text-decoration: none;
     color: #f4f4f4;
+    cursor: pointer;
 }
 
 header {
@@ -66,7 +59,7 @@ header {
 
 
 /* LISTINGS SECTION */
- 
+
 .listing {
     background: url("./img/property_1.jpeg") center/cover;
 }
@@ -111,6 +104,13 @@ header {
 .property-description .price {
     font-weight: bold;
 }
+
+
+/* TESTIMONIALS */
+
+/* #testimonials {
+    background: rgb(240, 240, 240);
+} */
 
 
 /* FOOTER SECTION */
