@@ -1,9 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --OK_BLACK: #000000;
+    --OK_MOSS: #A4C7BC;
+    --OK_BLANC: #E6E6E6;
+    --OK_BLUE: #2F4857;
+    --OK_WHITE: #FFFFFF;
 }
 
 img, iframe {
@@ -12,16 +21,16 @@ img, iframe {
 
 
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .contact-header {
-    background: linear-gradient(to right, hsl(0, 50%, 61%), hsl(0, 50%, 35%));
+    /* background: linear-gradient(to right, hsl(203, 30%, 46%), hsl(203, 30%, 26%)); */
+    background: var(--OK_BLUE);
     height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0 40px; */
     font-size: 0.9rem;
 }
 
@@ -32,14 +41,58 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     height: 280px;
-    background: url("./img/toronto-bg.png") center/cover;
-    position: relative;
+    background: url("./img/oresta_banner_blank.jpg") center/cover;
+    /* position: relative; */
 }
+
+header img {
+    max-height: 100%;
+}
+
+.header-left {
+    display: flex;
+    min-width: fit-content;
+}
+
+.header-right {
+    /* background: rgba(164, 199, 188, 0.5); */
+    background: rgba(0, 0, 0, 0.4);
+    width: 300px;
+    height: fit-content;
+    border-bottom-left-radius: 10px;
+}
+
+
+.contact-box {
+    text-align: center;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--OK_BLACK);
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--OK_BLUE);
+    height: fit-content;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+.contact-box span:nth-child(2) {
+    font-size: 2rem;
+}
+
+/* navbar */
 
 .navbar-nav li {
     margin-right: 15px;
     margin-left: 15px;
+    white-space: nowrap;
 }
 
 .navbar-nav {
@@ -47,7 +100,7 @@ header {
 }
 
 .bg-oresta {
-    background: #dbe8e8;
+    background: var(--OK_MOSS);
 }
 
 
