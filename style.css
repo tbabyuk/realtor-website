@@ -25,12 +25,8 @@ body {
 }
 
 .contact-header {
-    /* background: linear-gradient(to right, hsl(203, 30%, 46%), hsl(203, 30%, 26%)); */
     background: var(--OK_BLUE);
     height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 0.9rem;
 }
 
@@ -92,7 +88,6 @@ header img {
 .navbar-nav li {
     margin-right: 15px;
     margin-left: 15px;
-    white-space: nowrap;
 }
 
 .navbar-nav {
