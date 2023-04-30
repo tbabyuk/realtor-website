@@ -36,6 +36,10 @@ body {
     cursor: pointer;
 }
 
+.contact-header img {
+    max-width: 25px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -181,4 +185,8 @@ header img {
 .footer-section a {
     text-decoration: none;
     color: #c2c2c2;
+}
+
+.footer-section img {
+    max-width: 50px;
 }
