@@ -157,24 +157,11 @@ header img {
 }
 
 
-/* TESTIMONIALS */
-
-/* #testimonials {
-    background: rgb(240, 240, 240);
-} */
-
-
-/* ABOUT ME */
-
-/* #about-me img {
-    width: 250px;
-} */
-
-
 /* FOOTER SECTION */
 
 .footer-section {
-    background: hsl(0, 6%, 14%);
+    /* background: hsl(0, 6%, 14%); */
+    background: var(--OK_BLUE);
 }
 
 .footer-section h5 {
